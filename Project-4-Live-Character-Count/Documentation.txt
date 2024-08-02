@@ -1,0 +1,41 @@
+Live Character Count Project Documentation
+Overview
+The “Live Character Count” project is a simple web page that dynamically displays the number of characters (including spaces) as a user types into an input box. By combining HTML, CSS, and JavaScript, we create an interactive experience that provides real-time feedback to users.
+
+Technologies Used
+HTML: Defines the structure of the page.
+CSS: Styles the elements, including the input box and character count display.
+JavaScript: Handles user input and updates the character count dynamically.
+Project Components
+index.html:
+Contains the basic HTML structure.
+Includes an input box for user text entry.
+styles.css:
+Defines the visual appearance of the page.
+Styles the input box and character count display.
+Ensures responsiveness for different screen sizes.
+script.js:
+Manages interactivity:
+Selects the input box using document.querySelector.
+Adds an input event listener to track user typing.
+Calculates the character count (including spaces).
+Updates the display dynamically.
+Implementation Steps
+HTML Setup:
+Create an index.html file.
+Add an input box with an appropriate placeholder (e.g., “Type here…”).
+CSS Styling:
+Create a styles.css file.
+Style the input box (size, font, colors).
+Position the character count display (e.g., below the input box).
+JavaScript Logic:
+In a script.js file:
+Select the input box using document.querySelector.
+Add an input event listener to the input box.
+Inside the event handler:
+Retrieve the input value.
+Calculate the character count (using .length).
+Update the character count display.
+User Experience Enhancement:
+Consider adding visual cues (e.g., changing color when nearing a character limit).
+Handle edge cases (e.g., handling pasted text, handling special characters)
